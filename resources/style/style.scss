@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    #content{
+        width: calc(100vw - 520px);
+        padding-left: 20px;
+        p{
+            font-size: 18px;
+            line-height: 32px;
+            width: 90%;
+        }
+    }
+    #banner{
+        width: 500px;
+        height: 1000px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

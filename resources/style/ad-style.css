@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@property --d {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: -30deg;
+}
+
+#container {
+  width: 500px;
+  height: 1000px;
+  background: linear-gradient(var(--d), #87e0ec, #01586d);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 180px;
+}
